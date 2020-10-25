@@ -24,6 +24,7 @@ export const Dashboard: React.FC<any> = () => {
     return (
 
         <div>
+            <h2>Add a Transaction</h2>
             <CreateTransaction 
                 onSubmit={(transaction: Transaction) => {
                     transaction.id = generate();
