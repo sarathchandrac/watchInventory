@@ -60,9 +60,6 @@ const CreateTransaction: React.FC<Props> = ( { onSubmit } ) => {
                     </div>
 
                     <Button variant="contained" type="submit" >Submit</Button>
-                    <pre>
-                        {JSON.stringify( values, null, 2 )}
-                    </pre>
 
                 </Form>
             )
