@@ -1,6 +1,3 @@
-import Transaction from './chartTypes';
-import MyForm from './MyForm';
-import MyTable from './MyTable';
 import './App.css';
 import { Dashboard } from './Dashboard';
 
